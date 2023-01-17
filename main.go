@@ -16,7 +16,7 @@ func main() {
 
 func Hello() echo.HandlerFunc {
     return func(c echo.Context) error {     
-        return c.String(http.StatusOK, "4432: Опачки! ver.3")
+        return c.String(http.StatusOK, "4432: Опачки! ver.4")
     }
 }
 
